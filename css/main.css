@@ -1,0 +1,111 @@
+body {
+    color: #333333;
+    height: 100%;
+}
+
+
+.navbar {
+       background-image: url("../images/banner.jpg");
+       color: #FFFFFF;
+    }
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: right;
+    }
+}
+
+body > .container {
+    padding: 60px 15px 0;
+    color: #333333;
+}
+
+
+.footer {
+	background: #333333 none repeat scroll 0% 0%;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    height: 100%;
+}
+
+.footer-main {
+	color: #FFFFFF;
+}
+
+.footer-main h2 {
+    color: #FFFFFF;
+}
+
+.footer-addresses {
+    border-style: solid;
+    border-color: #b74aca;
+    border-width: 3px;
+}
+
+label {
+    color: #333333;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: #333333;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.btn-primary {
+    background-image: none;
+    background-color: #b74aca;
+    border-color: #b74aca;
+    margin: 3px;
+    text-shadow: none;
+}
+
+.brown-background {
+    background: #333333 none repeat scroll 0 0;
+}
+
+.margin-20 {
+    margin-top: 20px;
+}
+
+
+#home-text h1 {
+    color: #FFFFFF;
+}
+
+#logo {
+    color: #FFFFFF;
+}
+
+li {
+    margin-bottom: 0em;
+}
+
+
+.footer p {
+    text-align: center;
+}
+
+[type="text"], [type="password"], select {
+    width: 100%;
+}
+
+
+
+.QRimage {
+  width: 75px;
+  height: 75px;
+  display: block;
+}
+
+.QRimage:hover {
+        transform: scale(3);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
